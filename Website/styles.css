@@ -107,6 +107,14 @@ h1{
         display: flex;
     }
 }
+body{
+    background-image: url("https://scontent-ord5-1.xx.fbcdn.net/v/t1.18169-9/532317_484157361638848_2139268648_n.jpg?stp=c0.24.520.271a_dst-jpg&_nc_cat=100&ccb=1-7&_nc_sid=e3f864&_nc_ohc=uzRbp-0bfOwAX88WYck&_nc_ht=scontent-ord5-1.xx&oh=00_AT-n6RtE1sfXmaBo1wY5Yo3SWAQnq92DRds4_C5Lc2FWQA&oe=6303421D");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #054d51;
+}
+
 .text{
     position: absolute;
     width: 100%;
@@ -120,20 +128,53 @@ h1{
 }
 
 #busName{
-    top: 0;
-    
-    font-size: 55px;
+    font-size: 60px;
+    text-align: center;
+    transform: translateY(-60px);
 }
 #address{
-    top: 50;
-    font-size: 40px;
+    font-size: x-large;
+    text-align: center;
+    transform: translateY(57px);
     
 }
 .background{
-    max-height: 800px;
+    max-height: 100%;
     min-width: 100%;
     position: absolute;
     z-index: -1;
 }
 
-
+.footer{
+    display: block;
+    margin-top: 100%;
+    bottom: 0;
+    background-color: #054d51;
+    padding: 70px 0;
+}
+.footer-col{
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 0 15px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col .social-links a{
+    display:inline-block;
+    height:40px;
+    width: 40px;
+    background-color: white;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    color: rgb(46, 46, 46);
+}
